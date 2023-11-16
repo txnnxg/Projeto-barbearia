@@ -1,0 +1,22 @@
+img{
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    display: block;
+ }
+ body{
+    background-color: azure;
+ }
+ h1{
+    text-align: center;
+ }
+ p{
+    text-align: center;
+ }
+ strong{
+    color: red;
+ }
+ #Missao{
+    font-size: 20px;
+ }
+ 
