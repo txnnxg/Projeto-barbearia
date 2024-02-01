@@ -32,6 +32,12 @@ nav > a{
    margin: auto;
 }
 
+a:hover{
+   text-decoration: underline;
+   color: red;
+}
+
+
  header {
    color: aliceblue;
    font-family: 'Barba';
