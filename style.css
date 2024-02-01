@@ -29,7 +29,7 @@ nav {
 nav > a{
    text-decoration: none;
    margin: auto;
-   
+   padding: 0px 100px;
 }
 
 a:hover{
