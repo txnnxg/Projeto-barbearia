@@ -28,8 +28,8 @@ nav {
 
 nav > a{
    text-decoration: none;
-   padding: 0px 138px;
    margin: auto;
+   display: block;
 }
 
 a:hover{
