@@ -27,8 +27,23 @@ body {
    * {
    margin: 0px;
    padding: 0px;
-}
-#titulo {
+} 
+
+header {
+   color: aliceblue;
+   background-color: #000000;
+   min-height: 200px;
+   padding-top: 40px;
+   background-image: linear-gradient(to bottom, white, rgb(0, 0, 0));
+   text-align: center;
+   
+ }
+
+ h1#titulo {
+   font-family: 'Barba';
+ }
+
+ #titulo {
    font-size: 5em;
    padding-bottom: 10px;
    background: linear-gradient(to right, #ffffff 10%, rgb(255, 239, 239) 50%,black 100%, #00131c 15%);
@@ -45,6 +60,7 @@ nav {
    padding: 10px;
    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.199);
    text-align: left;
+   font-family: 'Barba';
   
 }
 
@@ -62,28 +78,16 @@ nav > a:hover{
    color: rgb(0, 0, 0);
 }
 
-
- header {
-   color: aliceblue;
-   font-family: 'Barba';
-   background-color: #000000;
-   min-height: 200px;
-   padding-top: 40px;
-   background-image: linear-gradient(to bottom, white, black);
-   text-align: center;
-   
- }
-
- header > p {
+header > p {
    font-size: 1.2em;
+   font-family: 'Barba';
  }
 
  main {
    color: aliceblue;
-   font-family: 'Barba';
-   background-image: linear-gradient(to bottom, black, white);
+   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.689), rgb(255, 255, 255));
    margin: auto;
-   max-width: 800px;
+   max-width: 1000px;
    min-width: 300px;
    padding: 20px;
    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
@@ -92,22 +96,21 @@ nav > a:hover{
    border-bottom-left-radius: 10px;
  }
 
- h1{
+ h1#titulo2{
     text-align: center;
+    font-family: 'Barba';
+    font-size: 30px;
  }
 
- p{
-    text-align: center;
- }
+p.intro {
+   font-size: 25px;
+}
 
- strong{
+ strong#contraste{
     color: rgb(0, 0, 0);
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
  }
-
- #Missao{
-    font-size: 20px;
- }
-
 
 main img {
    width: 60%;
