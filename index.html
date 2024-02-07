@@ -12,7 +12,7 @@
       <h1 id="titulo">Barbearia <strong>Nuevo</strong></h1>
       <p>um novo jeito de cortar cabelo</p>
       <nav>
-         <a href="#">Corte</a>  
+         <a href="#" id="canvas">Corte</a>  
          <a href="#">Barba</a>
          <a href="#">Sobrancelha</a>
          <a href="#">Hidratação</a>
@@ -60,6 +60,16 @@
    <footer>
 
    </footer>
+   <script>
+      function startup() {
+  const el = document.getElementById("canvas");
+  el.addEventListener("touchstart", handleStart);
+  el.addEventListener("touchend", handleEnd);
+  el.addEventListener("touchcancel", handleCancel);
+  el.addEventListener("touchmove", handleMove);
+  log("Initialized.");
+}
+   </script>
 </body>
 </html>
 
