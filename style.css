@@ -107,10 +107,26 @@ header > p {
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  }
 
- h1#titulo2{
+ h1#titulo2 {
     text-align: center;
     font-family: 'Barba';
     font-size: 30px;
+ }
+
+ h1#titulo3 {
+   font-family: 'Barba';
+   font-size: 30px;
+ }
+
+ section#wesley {
+ border: solid 5px black;
+ border-radius: 25px;
+ padding: 10px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+ section#wesley > p {
+   color: rgb(255, 255, 255);
+   font-size: 25px;
  }
 
 p.intro {
